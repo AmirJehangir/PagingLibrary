@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/wMart/mobileMart/findAllMarts",
+    "headers": {
+      "Content-Type": {
+        "contains": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "martjson.json",
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "max-age=86400"
+    }
+  }
+}
