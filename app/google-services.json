@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605383064006",
+    "project_id": "android-paging-v3",
+    "storage_bucket": "android-paging-v3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605383064006:android:f107da82871b4c86145ac7",
+        "android_client_info": {
+          "package_name": "com.amir.mart.paginglibraryv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605383064006-6p3k51bhr6ftnfqcinh4pav1up064o3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwy9TWkW_ua1stHEFpUHAqeWG_hQIhSgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605383064006-6p3k51bhr6ftnfqcinh4pav1up064o3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

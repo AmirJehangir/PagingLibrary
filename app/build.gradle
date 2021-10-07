@@ -3,14 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: "kotlin-kapt"
 apply plugin: "androidx.navigation.safeargs.kotlin"
-//apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.etisalat.merchant.paginglibraryv3"
+        applicationId "com.amir.mart.paginglibraryv3"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -58,7 +58,7 @@ android {
         }
         amirWiremock {
             dimension "baseURL"
-            buildConfigField "String", "baseUrl", "\"http://192.168.10.10:8080/wMart/\""
+            buildConfigField "String", "baseUrl", "\"http://192.168.10.8:8080/wMart/\""
         }
     }
 
@@ -115,9 +115,10 @@ dependencies {
     implementation 'com.karumi:dexter:5.0.0'
 
 
-//    //Location Services
-//    implementation 'com.google.android.gms:play-services-location:18.0.0'
-//    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    //Location Services
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
 
 
     // for room
@@ -127,6 +128,6 @@ dependencies {
     implementation "android.arch.paging:runtime:1.0.1"
 
     //for paging
-    implementation 'androidx.paging:paging-runtime-ktx:2.1.1'
+    implementation 'androidx.paging:paging-runtime-ktx:3.0.1'
 
 }

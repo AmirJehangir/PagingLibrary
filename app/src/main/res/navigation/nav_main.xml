@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.etisalat.merchant.paginglibraryv3.presentation.main.MainFragment"
+        android:name="com.amir.mart.paginglibraryv3.presentation.main.MainFragment"
         android:label="Default Fragment"
         tools:layout="@layout/fragment_main" >
     </fragment>
