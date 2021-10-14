@@ -48,18 +48,15 @@ class MainListingFragment  : BaseFragment() {
 
 
     private fun populateMartListFromDb() {
-        martListAdapter = MartListAdapter { agentData ->
+        martListAdapter = MartListAdapter { martData ->
 
         }
         mainViewModel.allMartData.observe(this, Observer { loadedAgentData ->
-            if (loadedAgentData.size > 0) {
                 martListAdapter.submitList(loadedAgentData)
                 binding.rvAgentList.apply {
                     layoutManager = LinearLayoutManager(activity)
                     adapter = martListAdapter
-
                 }
-            }
         })
     }
 

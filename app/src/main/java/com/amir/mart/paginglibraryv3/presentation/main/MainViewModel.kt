@@ -69,9 +69,6 @@ class MainViewModel(
             when (outcome) {
                 is Outcome.Success -> {
                     outcome.data?.let {
-
-                        var abc = it
-
 //                        agentLiveData = it
                         resultfindLocalAgentStoreLiveDataSetDb.value = it
                     }
